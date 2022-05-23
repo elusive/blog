@@ -1,5 +1,5 @@
 {
-  "name": "eleventy-duo",
+  "name": "elusive-blog-11ty",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -40,6 +40,7 @@
     "clean": "rm -rf ./public"
   },
   "dependencies": {
+    "dotenv": "^16.0.1",
     "remove": "^0.1.5"
   }
 }
