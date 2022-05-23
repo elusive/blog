@@ -3,7 +3,7 @@ id: 63
 title: jQuery Plugins
 date: 2009-03-06T02:18:14-04:00
 author: John
-layout: post
+layout: post.njk
 guid: http://johngilliland.wordpress.com/?p=63
 permalink: /2009/03/06/jquery-plugins/
 categories:

@@ -3,7 +3,7 @@ id: 44
 title: Project Euler Journey Begins
 date: 2009-01-18T15:52:07-04:00
 author: John
-layout: post
+layout: post.njk
 guid: http://johngilliland.wordpress.com/?p=44
 permalink: /2009/01/18/project-euler-journey-begins/
 categories:

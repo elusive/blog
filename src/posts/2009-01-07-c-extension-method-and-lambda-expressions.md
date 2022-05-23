@@ -3,7 +3,7 @@ id: 16
 title: "C# Extension Method and Lambda Expressions"
 date: 2009-01-07T15:40:22-04:00
 author: John
-layout: post
+layout: post.njk
 guid: http://johngilliland.wordpress.com/?p=16
 permalink: /2009/01/07/c-extension-method-and-lambda-expressions/
 image_size:

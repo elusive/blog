@@ -3,7 +3,7 @@ id: 92
 title: VS 2012 Code Mapping!
 date: 2012-12-08T17:27:43-04:00
 author: John
-layout: post
+layout: post.njk
 guid: http://johngilliland.wordpress.com/?p=92
 permalink: /2012/12/08/vs-2012-code-mapping/
 tagazine-media:

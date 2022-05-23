@@ -3,7 +3,7 @@ id: 78
 title: Yes I am Still Here
 date: 2009-11-08T12:23:10-04:00
 author: John
-layout: post
+layout: post.njk
 guid: http://johngilliland.wordpress.com/2009/11/08/yes-i-am-still-here-3/
 permalink: /2009/11/08/yes-i-am-still-here-3/
 categories:

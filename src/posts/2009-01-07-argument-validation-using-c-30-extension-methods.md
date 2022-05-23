@@ -3,7 +3,7 @@ id: 18
 title: 'Argument Validation using C# 3.0 extension methods'
 date: 2009-01-07T13:11:38-04:00
 author: John
-layout: post
+layout: post.njk
 guid: http://johngilliland.wordpress.com/?p=18
 permalink: /2009/01/07/argument-validation-using-c-30-extension-methods/
 image_url:
