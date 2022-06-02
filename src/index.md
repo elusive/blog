@@ -1,8 +1,12 @@
 ---
 layout: home
-title: 'Eleventy Duo'
+title: 'Elusive Development Blog'
 ---
 
-# Hello World
+# ē-ˈlü-siv
 
-Eleventy Duo is a minimal and beautiful Eleventy theme for personal blogs. Checkout the [project's github repo](https://github.com/yinkakun/eleventy-duo) for more info.
+- difficult to find or achieve
+
+But the journey is worth it, and the fulfillment found. This is some of my
+articles from over the years. Please enjoy!
+
