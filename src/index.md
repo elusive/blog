@@ -1,8 +1,9 @@
 ---
-layout: home
-title: 'Eleventy Duo'
+layout: home.njk 
+title: 'John G. Dev Blog'
 ---
 
-# Hello World
+## Elusive  \ ē-ˈlü-siv \
+- tending to evade grasp or pursuit
 
-Eleventy Duo is a minimal and beautiful Eleventy theme for personal blogs. Checkout the [project's github repo](https://github.com/yinkakun/eleventy-duo) for more info.
+This is my weblog to which I add articles infrequently due to being busy in pursuit of an elusive level of excellence in code.

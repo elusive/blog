@@ -20,7 +20,8 @@ and to various ends.
 ### Enter the 2D Array
 As an example, let us see seme code. The initial `Image` class has a ctor that takes in the 2D array containing
 its 1s and 0s of *pixel data*. And looks something like this:
-{% highlight ruby %}
+
+```ruby
 class Image
     def initialize(array)
       @values = array
@@ -37,16 +38,19 @@ class Image
      end
      puts ""
 end
-{% endhighlight %}
+```
+
 Usage of which is provided as part of the *make this code work* challenge. And the provided calls look like this:
-{% highlight ruby %}
+
+```ruby
 Image.new([
     [0,0,0,0],
     [0,1,0,0],
     [0,0,0,1],
     [0,0,0,1]
 ])
-{% endhighlight %}
+```
+
 This call to the class constructor stores this 2D array in a class variable as shown, called `@values` and it
 is accessed when needed to display the data in the `output_image` method. Simple so far, but the challenge builds
 upon this with the next requirement.
@@ -74,12 +78,14 @@ Anyways, suffice it to say we needed to copy the 2D array. And therein we find t
 I did a quick search for how to copy an array in Ruby and came up easily with the `dup` method. And it is important
 to note that making copies of simple objects is easy and is the intended purpose of the `dup` method. Take the
 following as an example:
-{% highlight ruby %}
+
+```ruby
 array_one = [1,2,3]
 array_two = array_one
 array_two << 4
 array_one.inspect  # [1,2,3,4]
-{% endhighlight %}
+```
+
 This example shows that you cannot do a simple value copy on an Array instance.  The reason for this is that an Array
 is a [reference object vs. a value object](https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0)
 and therefore the new variable in our example, `array_two` is pointing to a place in memory rather than holding the
@@ -87,13 +93,16 @@ value in memory. We end up with both `array_one` and `array_two` pointing to the
 our array.
 
 A shallow reference or object copy is demonstrated in the next snippet and is how you copy a simple object in ruby.
-{% highlight ruby %}
+
+
+```ruby
 array_one = [1,2]
 array_two = array_one.dup
 array_one << 3
 array_one.inspect   # [1,2,3]
 array_two.inspect   # [1,2]
-{% endhighlight %}
+```
+
 And you will see here that making a shallow copy of `array_one` into the `array_two` variable does in this case make
 a new copy of the object so that we can alter `array_one` by adding another value to it and then show that the copied
 `array_two` is not altered because it is its own object.
@@ -103,12 +112,15 @@ Well then what is the problem you might say. The problem comes when you have mor
 thus meaning it is no longer a simple object. This applies to hash maps, arrays and any collection capable of being
 nested into a multi-dimensional collection. In our `Image` class example we have a 2D array, where we nest the columnar
 pixel values into rows in second dimension of the `@values` array. Let us see what happens when we try a simple copy...
-{% highlight ruby %}
+
+
+```ruby 
 array_one = [ [1,2], [3,4] ]
 array_two = array_one.dup
 array_one[0] << 3
 array_two.inspect   #  [[1,2,3], [3,4]]
-{% endhighlight %}
+```
+
 Now it is important to see that altering `array_one` still altered the *duplicated* `array_two` which is **NOT** the
 behavior we want.  Because we used the `dup` method as in the previous example we expected our copy to remain
 just that, its own copy. But because a shallow copy only duplicates the first layer of complexity we get a reference
@@ -128,7 +140,7 @@ object directly from the memory heap.
 ### Deep Copy Implemented
 One possible solution for our student's example might be this:
 
-{% highlight ruby %}
+```ruby
 class Image
     def initialize(array)
       @values = array
@@ -150,7 +162,8 @@ class Image
      end
      puts ""
 end
-{% endhighlight %}
+```
+
 Now our `Image` class is equipped with a deep copy that will work for whatever it is call upon. And furthermore
 because both the `dup` and `clone` methods call `initialize_copy` internally, they will both now perform the same
 deep copy.

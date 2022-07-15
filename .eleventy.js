@@ -18,12 +18,12 @@ const manifestPath = path.resolve(
 
 const manifest = isDev
   ? {
-      'main.js': '/src/js/main.js',
-      'main.css': '/src/css/main.css',
-    }
+    'main.js': '/assets/main.js',
+    'main.css': '/assets/main.css',
+  }
   : JSON.parse(fs.readFileSync(manifestPath, { encoding: 'utf8' }));
 
-module.exports = function (eleventyConfig) {
+module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(readingTime);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(syntaxHighlight);
@@ -41,13 +41,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ 'src/images': 'images' });
   eleventyConfig.setBrowserSyncConfig({ files: [manifestPath] });
 
-  eleventyConfig.addShortcode('bundledcss', function () {
+  eleventyConfig.addShortcode('bundledcss', function() {
     return manifest['main.css']
       ? `<link href="${manifest['main.css']}" rel="stylesheet" />`
       : '';
   });
 
-  eleventyConfig.addShortcode('bundledjs', function () {
+  eleventyConfig.addShortcode('bundledjs', function() {
     return manifest['main.js']
       ? `<script src="${manifest['main.js']}"></script>`
       : '';
@@ -80,13 +80,13 @@ module.exports = function (eleventyConfig) {
     return array.slice(0, n);
   });
 
-  eleventyConfig.addCollection('tagList', function (collection) {
+  eleventyConfig.addCollection('tagList', function(collection) {
     let tagSet = new Set();
-    collection.getAll().forEach(function (item) {
+    collection.getAll().forEach(function(item) {
       if ('tags' in item.data) {
         let tags = item.data.tags;
 
-        tags = tags.filter(function (item) {
+        tags = tags.filter(function(item) {
           switch (item) {
             case 'all':
             case 'nav':
@@ -119,7 +119,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addTransform('htmlmin', function(content, outputPath) {
-    if ( outputPath && outputPath.endsWith(".html") && isProd) {
+    if (outputPath && outputPath.endsWith(".html") && isProd) {
       return htmlmin.minify(content, {
         removeComments: true,
         collapseWhitespace: true,

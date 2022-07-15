@@ -1,14 +1,16 @@
 ---
-title: About Aidan Charles Powell
+title: About John Christopher Gilliland
 layout: about.njk
-name: Aidan Charles Powell
+name: John Christopher Gilliland
 image: '/images/me.jpeg'
 ---
 
-Aidan Charles Powell is a 23-year-old health centre receptionist who enjoys watching television, eating out and social media. He is generous and giving, but can also be very rude and a bit lazy.
+He is an autodidact software engineer, born in the mid-1970s with over 20 years in the industry, about half web development and half desktop.
 
-He is a Jedi who defines himself as straight. He has a degree in medicine. He is a vegetarian. He is obsessed with vintage dresses.
+He values the truth above all (reality is the only truth there is).
 
-He grew up in a middle class neighbourhood. After his mother died when he was young, he was raised by his father
+He values learning, self-reliance, books and movies that make him laugh or smile or cry, and loyalty in friends.
 
-He is currently married to Maureen Erika Quinn. Maureen is 13 years older than him and works as a sales assistant.
+He grew up in a lower middle class neighborhood in Louisville, Kentucky. He was raised by a single mother, meeting his father later in his childhood.
+
+He is currently partnered with a beautiful woman named Jane Kim whom he met one evening in April of 1999. They live together in Lakewood, Colorado where the climate is arid and sunny.
