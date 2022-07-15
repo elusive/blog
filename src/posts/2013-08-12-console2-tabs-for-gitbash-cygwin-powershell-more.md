@@ -50,7 +50,7 @@ To get a list of all of the packages you have installed use the command:
 <h2>Console2 Setup</h2>
 </div>
 <div>A new machine meant I had to do some reconfiguring of my utilities, especially the ones I use the most, like <a href="https://www.google.com/search?q=console2" target="_blank">Console2</a>, or just <a href="http://sourceforge.net/projects/console/" target="_blank">Console</a> now.  I have previously published an article that contained my Console2 Setup and it has been quite a popular article, my most popular one on the site in fact.  And when I had to figure out how to do it all again I  thought a new article would be a good idea.  Especially because I have added even more tabs to this setup.</div>
-<div><figure><img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border-width: 0px;" title="Console2 Tabs" src="/assets/images/2012-12-22_console2_tabs.png" alt="Console2 Tabs screenshot" width="260" height="219" border="0" /></figure>As you can see I have the following tabs available:</div>
+<div><figure><img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border-width: 0px;" title="Console2 Tabs" src="/images/2012-12-22_console2_tabs.png" alt="Console2 Tabs screenshot" width="260" height="219" border="0" /></figure>As you can see I have the following tabs available:</div>
 <ul>
 	<li>Windows Cmd Prompt</li>
 	<li>Visual Studio Cmd Prompt</li>
@@ -62,7 +62,7 @@ I was able to salvage some of my settings from my old hard drive by locating and
 <h3>Details</h3>
 Here are the specifics.  I am assuming that you know enough about Console to open the settings and add a new tab and get to this screen:
 
-<figure><img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border-width: 0px;" title="Console2 Settings" src="/assets/images/2012-12-22_gitbashtabsettings.png" alt="Console2 Settings Screenshot" width="254" height="260" border="0" /></figure>
+<figure><img style="background-image: none; float: none; padding-top: 0px; padding-left: 0px; margin-left: auto; display: block; padding-right: 0px; margin-right: auto; border-width: 0px;" title="Console2 Settings" src="/images/2012-12-22_gitbashtabsettings.png" alt="Console2 Settings Screenshot" width="254" height="260" border="0" /></figure>
 And here is the goodies!  A detailed list of the settings for each tab that work for me.  I add that caveat because due to the differences in versions of Windows and install locations I cannot swear that my settings will work for you, but you should be able to use my settings to figure out how to make yours work…
 
 <h5>Visual Studio Cmd Prompt</h5>

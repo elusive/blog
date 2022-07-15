@@ -24,7 +24,7 @@ I am currently on problem number 6 at Project Euler, which is title: <span style
 <div>1<sup>2</sup> + 2<sup>2</sup> + ... + 10<sup>2</sup> = 385</div>
 The square of the sum of the first ten natural numbers is,
 <div>(1 + 2 + ... + 10)<sup>2</sup> = 55<sup>2</sup> = 3025</div>
-Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is 3025 <img alt="−" src="http://projecteuler.net/images/symbol_minus.gif" width="9" height="3" border="0" /> 385 = 2640.
+Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is 3025 - 385 = 2640.
 
 Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.</blockquote>
 
