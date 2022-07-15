@@ -3,7 +3,7 @@ id: 18
 title: 'Argument Validation using C# 3.0 extension methods'
 date: 2009-01-07T13:11:38-04:00
 author: John
-layout: post
+layout: post.njk
 guid: http://johngilliland.wordpress.com/?p=18
 permalink: /2009/01/07/argument-validation-using-c-30-extension-methods/
 image_url:
@@ -118,7 +118,7 @@ Below is the class diagram for the validation/argument extensions.  There are a
 
  
 
-[caption id="attachment_36" align="aligncenter" width="410" caption="Class diagram for the validation extension classes."]<a href="/assets/images/extensionsclasses.png"><img class="size-full wp-image-36 " title="Validation Extension Classes" src="/assets/images/extensionsclasses.png" alt="Class diagram for the validation extension classes." width="410" height="350" /></a>[/caption]
+[caption id="attachment_36" align="aligncenter" width="410" caption="Class diagram for the validation extension classes."]<a href="/images/extensionsclasses.png"><img class="size-full wp-image-36 " title="Validation Extension Classes" src="/images/extensionsclasses.png" alt="Class diagram for the validation extension classes." width="410" height="350" /></a>[/caption]
 
  
 
@@ -130,7 +130,7 @@ And here is a screenshot of the unit tests all green and pretty!
 
  
 
-[caption id="attachment_37" align="aligncenter" width="545" caption="A screenshot of the pretty green unit test results!"]<a href="/assets/images/extenstionsunittests.png"><img class="size-full wp-image-37 " title="Validation Extension UnitTests" src="/assets/images/extenstionsunittests.png" alt="A screenshot of the pretty green unit test results!" width="545" height="242" /></a>[/caption]
+[caption id="attachment_37" align="aligncenter" width="545" caption="A screenshot of the pretty green unit test results!"]<a href="/images/extenstionsunittests.png"><img class="size-full wp-image-37 " title="Validation Extension UnitTests" src="/images/extenstionsunittests.png" alt="A screenshot of the pretty green unit test results!" width="545" height="242" /></a>[/caption]
 
  
 

@@ -3,7 +3,7 @@ id: 16
 title: "C# Extension Method and Lambda Expressions"
 date: 2009-01-07T15:40:22-04:00
 author: John
-layout: post
+layout: post.njk
 guid: http://johngilliland.wordpress.com/?p=16
 permalink: /2009/01/07/c-extension-method-and-lambda-expressions/
 image_size:
@@ -53,7 +53,7 @@ But today I was able to apply lambdas to my real world problem like so:
 
 I needed an extension method for my <a title="Argument validation with extension methods." href="http://johngilliland.wordpress.com/2009/01/07/argument-validation-using-c-30-extension-methods/">Generic argument wrapper</a> that would allow me to pass in a simple expression predicate with which to validate the argument.  And here is what I came up with:
 
-<figure><img class="size-full wp-image-25 " title="Code for MeetsCriteria extension method." src="/assets/images/meetscriteria.png" alt="Code for MeetsCriteria extension method." width="349" height="281" /></figure>
+<figure><img class="size-full wp-image-25 " title="Code for MeetsCriteria extension method." src="/images/meetscriteria.png" alt="Code for MeetsCriteria extension method." width="349" height="281" /></figure>
 
 Now this code allows me to pass in a lambda expression that I wish to use to validate an integer argument for my method [or any integer for that matter].  This method was added to my existing argument validation extension methods setup as described in a previous post, already linked to a couple of times above, so it follows similar usage syntax, as such:
 
@@ -63,6 +63,6 @@ myIntArg.RequireThat(<span style="color:#800000;">"myIntArg"</span>).MeetsCriter
 
 I also added a unit test for this new method into my existing test project for the rest of my validation extension methods, and so I will use that test method to show you a contextual usage of MeetsCriteria...
 
-<figure><img class="size-full wp-image-26" title="meetscriteria.test.png" src="/assets/images/meetscriteriatest.png" alt="My unit test for MeetsCriteria method.  Testing that 21 is between 20 and 22." width="381" height="163" /></figure>
+<figure><img class="size-full wp-image-26" title="meetscriteria.test.png" src="/images/meetscriteriatest.png" alt="My unit test for MeetsCriteria method.  Testing that 21 is between 20 and 22." width="381" height="163" /></figure>
 
 So, now I have actually used lambdas in a project at work, I am so very happy with myself.  And my quest to conquer C# 3.0 features continues... J

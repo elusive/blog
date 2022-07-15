@@ -3,7 +3,7 @@ id: 93
 title: "Whist Card Game in C# and WPF"
 date: 2012-11-26T10:23:47-04:00
 author: John
-layout: post
+layout: post.njk
 guid: http://johngilliland.wordpress.com/?p=93
 permalink: /2012/11/26/whist-card-game-in-c-and-wpf/
 categories:
@@ -17,7 +17,7 @@ I like cards and I play both bridge and whist whenever I get a chance, which is 
 
 The key feature will be the Artificial Intelligence component that will play the other three hands. This is not a simple task and is certainly where the challenge lies. My first attempt will likely use more heuristics than anything, a rule based player. It will certainly be a work in progress for a long time to come. I will publish to my <a href="https://github.com/elusive" title="GitHub account" target="_blank"></a> as soon as I set it up. For now here is a screenshot of what I have:
 
-<figure><img src="/assets/images/whistle_one.png" alt="" title="Dealt and sorted" width="300" height="250" /><figcaption> Deal and sort for Whist hand...</figcaption></figure>
+<figure><img src="/images/whistle_one.png" alt="" title="Dealt and sorted" width="300" height="250" /><figcaption> Deal and sort for Whist hand...</figcaption></figure>
 One thing I want to note is how I solved the problem of converting the Silverlight xaml I got from the sample project into WPF xaml that would run.  The problem that occurred in multiple places and in almost all animations, such as just moving a card was the same.  The Silverlight application had code for nice move animations and a nice flip animation that I am planning to reuse.  But, in WPF you must have a valid, preset Top and Left value on the item you wish to manipulate.  This is not so in Silverlight and causes a common NaN error.  The answer I found at <a href="http://stackoverflow.com/questions/669071/canvas-gettop-returning-nan" title="Stackoverflow"></a> and showed me how to get a rendered top and left value.  Instead of using:
 <code>var dx = Canvas.GetLeft(deck);
 var dy = CanvasGetTop(deck);</code>

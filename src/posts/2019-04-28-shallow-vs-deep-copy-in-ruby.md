@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post.njk
 author: jogi
 title: "Shallow Copy vs. Deep Copy in Ruby"
 date: 2019-04-28T02:13:41-0500
@@ -112,7 +112,6 @@ Well then what is the problem you might say. The problem comes when you have mor
 thus meaning it is no longer a simple object. This applies to hash maps, arrays and any collection capable of being
 nested into a multi-dimensional collection. In our `Image` class example we have a 2D array, where we nest the columnar
 pixel values into rows in second dimension of the `@values` array. Let us see what happens when we try a simple copy...
-
 
 ```ruby 
 array_one = [ [1,2], [3,4] ]

@@ -3,7 +3,7 @@ id: 86
 title: 'Still Walkin'
 date: 2011-10-20T09:40:15-04:00
 author: John
-layout: post
+layout: post.njk
 guid: http://johngilliland.wordpress.com/?p=86
 permalink: /2011/10/20/still-walkin/
 tagazine-media:
