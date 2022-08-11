@@ -6,7 +6,7 @@ Elusive blog content using the [Eleventy](https://www.11ty.dev/)
 ## Getting Started
 
 - I am using a template found here: [Eleventy Duo](https://github.com/yinkakun/eleventy-duo)
-which provided me with very easy way to simply drop my liquid template markdown posts files
+which provided me with very easy way to simply drop my liquid template markdown files
 from Jekyll, right into the eleventy structure.
 
 - Simplifying my site is my goal, and I am not done trying. The switch to Eleventy is 
