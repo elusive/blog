@@ -14,12 +14,13 @@ jobs:
     environment: production
     steps:
       - uses: actions/checkout@master
+        run: npm run build
 
       - name: Upload to S3 (johng.info)
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        run: aws s3 sync --region us-east-1 --acl public-read src/ s3://aws-cloudfront-blog-bucket/
+        run: aws s3 sync --region us-east-1 --acl public-read public/ s3://aws-cloudfront-blog-bucket/
 
       - name: Invalidate cache (johng.info)
         env:
