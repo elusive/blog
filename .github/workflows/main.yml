@@ -14,7 +14,9 @@ jobs:
     environment: production
     steps:
       - uses: actions/checkout@master
-        run: npm run build
+
+      - name: Build Eleventyjs
+        run: npm install && npm run build
 
       - name: Upload to S3 (johng.info)
         env:
