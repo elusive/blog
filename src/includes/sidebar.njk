@@ -1,0 +1,42 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+        <h1>
+            <a href="{{ site.url }}">
+                johng   
+                <span style="font-size:0.6em;margin-left:-16px">.info</span>
+            </a>
+        </h1>
+        <p class="lead">{{ site.description }}</p>
+        </div>
+
+        <nav class="sidebar-nav">
+            {% if site.headerLinks %}
+                {% for item in site.headerLinks %}
+                    {% set currentAttribute = '' %}
+                    {% set externalAttribute = '' %}
+                    {% if item.external %}
+                        {% set externalAttribute = 'target="_blank" rel="noopener noreferrer"' %}
+                    {% endif %}
+                    {% if page.url == item.url %}
+                        {% set currentAttribute = 'aria-current="page"' %}
+                    {% endif %}
+                    <a class="sidebar-nav-item" 
+                        href="{{ item.url | url }}" {{ currentAttribute | safe }} {{ externalAttribute | safe }}>{{ item.text
+                    }}</a>
+                {% endfor %}
+            {% endif %}
+
+            {% for item in site.socialLinks %}
+                {% set externalAttribute = '' %}
+
+                {% if item.external %}
+                    {% set externalAttribute = 'target="_blank" rel="noopener noreferrer"' %}
+                {% endif %}
+
+                <a class="sidebar-nav-item" href="{{ item.url | url }}" {{ externalAttribute | safe }}>{{ item.text }}</a>
+            {% endfor %}
+        </nav>
+    </div>
+  </div>
+</div>
