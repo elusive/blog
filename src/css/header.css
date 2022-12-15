@@ -18,7 +18,7 @@
 }
 
 .site-title {
-  font-size: var(--text-xl);
+  font-family: "PT Serif", serif;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
@@ -38,18 +38,20 @@
   list-style: none;
   font-size: var(--text-base);
   padding-top: 0rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0rem;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
 }
 
 .nav__list a {
   color: rgb(117, 117, 117);
   text-decoration: none;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 .nav__list li {
   margin-right: 2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 .nav__list li:last-child {
