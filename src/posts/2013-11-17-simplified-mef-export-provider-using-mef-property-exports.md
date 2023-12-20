@@ -2,7 +2,7 @@
 title: Simplified MEF Export Provider using MEF Property Exports
 date: 2013-11-17T09:05:00-04:00
 author: jogi
-layout: post.njk
+layout: post.html
 categories:
   - 'C#'
   - Programming

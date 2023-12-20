@@ -1,5 +1,5 @@
 ---
-layout: home.njk 
+layout: home.html 
 title: 'John G. Dev Blog'
 ---
 

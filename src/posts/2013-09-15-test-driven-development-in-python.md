@@ -2,7 +2,7 @@
 title: Test Driven Development in Python
 date: 2013-09-15T13:30:36-04:00
 author: jogi
-layout: post.njk
+layout: post.html
 categories:
     - Programming
     - Project Euler

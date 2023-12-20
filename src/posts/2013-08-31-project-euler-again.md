@@ -1,9 +1,9 @@
----
+html
 id: 187
 title: 'Project Euler... again'
 date: 2013-08-31T08:44:05-04:00
 author: John
-layout: post.njk
+layout: post.html
 guid: https://johngilliland.wordpress.com/?p=187
 permalink: /2013/08/31/project-euler-again/
 tagazine-media:

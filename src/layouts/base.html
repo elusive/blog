@@ -59,10 +59,11 @@
 
 <body>
 
-  {% include "sidebar.njk" %}
+  {% include "sidebar.html" %}
 
   <div class="content container">
 
+      <!--
     <header class="header">
       <div class="header__content">
         <h1 class="site-title">
@@ -95,10 +96,10 @@
         </nav>
 
         {% endif %}
-
       </div>
     </header>
 
+      -->
     <main class="main">
       {{ content | safe }}
     </main>
@@ -138,9 +139,8 @@
         </ul>
 
         {% if site.showFooterAttribution %}
-        <p class="footer__attribution">
-          Powered by <a href="https://www.11ty.dev" target="_blank" rel="noopener">11ty,</a>
-          Theme <a href="https://github.com/yinkakun/eleventy-duo" target="_blank" rel="noopener noreferrer">Duo</a>
+        <p class="footer__attribution" style="font-size: small;">
+          Powered by <a href="https://www.11ty.dev" target="_blank" rel="noopener">11ty</a>
         </p>
         {% endif %}
 

@@ -3,7 +3,7 @@ id: 223
 title: "Console2 Tabs for GitBash, Cygwin, Powershell &amp; More"
 date: 2013-08-12T17:38:16-04:00
 author: John
-layout: post.njk
+layout: post.html
 guid: http://johngilliland.net/?p=223
 permalink: /2013/08/12/console2-tabs-for-gitbash-cygwin-powershell-more/
 categories:

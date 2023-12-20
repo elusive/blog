@@ -1,5 +1,5 @@
 ---
-layout: post.njk
+layout: post.html
 author: jogi
 title: "Shallow Copy vs. Deep Copy in Ruby"
 date: 2019-04-28T02:13:41-0500

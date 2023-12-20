@@ -3,7 +3,7 @@ id: 93
 title: "Whist Card Game in C# and WPF"
 date: 2012-11-26T10:23:47-04:00
 author: John
-layout: post.njk
+layout: post.html
 guid: http://johngilliland.wordpress.com/?p=93
 permalink: /2012/11/26/whist-card-game-in-c-and-wpf/
 categories:

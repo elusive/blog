@@ -3,7 +3,7 @@ id: 126
 title: "Git Bash & Console2, Finally!"
 date: 2012-12-22T01:09:55-04:00
 author: John
-layout: post.njk
+layout: post.html
 guid: http://johngilliland.wordpress.com/?p=126
 permalink: /2012/12/22/git-bash-console2-finally/
 tagazine-media:

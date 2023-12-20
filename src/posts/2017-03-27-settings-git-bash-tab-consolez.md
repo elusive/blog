@@ -3,7 +3,7 @@ title: Settings for a Git-Bash Tab in ConsoleZ
 author: jogi
 date: 2017-03-27T12:49:37-04:00
 excerpt_separator: <p>I tried
-layout: post.njk
+layout: post.html
 ---
 
 <p>This article describes how to setup Git-Bash as its own tab inside of <a href="https://chocolatey.org/packages/ConsoleZ">ConsoleZ</a>, the command prompt replacement application.  So here I go again. In using <a href="https://www.chocolatey.org">Chocolatey</a>, the package manager for Windows, to install <a href="https://chocolatey.org/packages/Console2">Console2</a> on my work machine I somehow ended up with what I guess is the latest iteration.

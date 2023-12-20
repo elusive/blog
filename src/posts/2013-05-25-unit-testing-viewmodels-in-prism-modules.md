@@ -3,7 +3,7 @@ id: 150
 title: Unit Testing ViewModels In Prism Modules
 date: 2013-05-25T11:49:00-04:00
 author: John
-layout: post.njk
+layout: post.html
 guid: https://johngilliland.wordpress.com/?p=150
 permalink: /2013/05/25/unit-testing-viewmodels-in-prism-modules/
 tagazine-media:

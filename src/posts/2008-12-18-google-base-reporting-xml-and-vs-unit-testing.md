@@ -3,7 +3,7 @@ id: 7
 title: Google Base, Reporting Xml, and VS Unit Testing
 date: 2008-12-18T09:40:54-04:00
 author: John Gilliland
-layout: post.njk
+layout: post.html
 permalink: /2008/12/18/google-base-reporting-xml-and-vs-unit-testing/
 categories:
   - 'C#'

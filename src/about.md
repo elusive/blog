@@ -1,6 +1,6 @@
 ---
 title: About John Christopher Gilliland
-layout: about.njk
+layout: about.html
 name: John Christopher Gilliland
 image: '/images/me.jpeg'
 ---
